@@ -1,0 +1,84 @@
+@import url(../font/iconfont.css);
+* { padding: 0; margin: 0; }
+
+html, body { height: 100%; background: #f6f6f6; font-family: "microsoft yahei"; }
+
+a { text-decoration: none; }
+
+.ad { width: 100%; height: 80px; background: #cc4ff3; }
+.ad .ad-con { width: 1190px; height: 100%; margin: 0 auto; position: relative; }
+.ad .x { width: 20px; height: 20px; position: absolute; right: 10px; top: 10px; background: rgba(156, 68, 183, 0.5); color: #fff; text-align: center; line-height: 20px; cursor: pointer; }
+
+.top { width: 100%; height: 30px; background: #e3e4e5; border: 1px solid #ddd; }
+.top .top-center { width: 1190px; height: 100%; margin: 0 auto; position: relative; }
+.top .top-center .logo { width: 190px; height: 170px; background: #fff; box-shadow: 3px 0px 10px -5px #ccc, -3px 0px 10px -5px #ccc; -ms-box-shadow: 3px 0px 10px -5px #ccc, -3px 0px 10px -5px #ccc; -o-box-shadow: 3px 0px 10px -5px #ccc, -3px 0px 10px -5px #ccc; -webkit-box-shadow: 3px 0px 10px -5px #ccc, -3px 0px 10px -5px #ccc; -moz-box-shadow: 3px 0px 10px -5px #ccc, -3px 0px 10px -5px #ccc; float: left; }
+.top .top-center .citys { width: 57.15px; height: 30px; float: left; margin-left: 10px; font-size: 12px; line-height: 28px; color: #999; text-indent: 1em; }
+.top .top-center .citys.h { background: #fff; border: 1px solid #ccc; border-bottom: none; }
+.top .top-center .red { font-family: 'iconfont'; color: red; }
+.top .top-center .switch { width: 321.6px; height: 217.6px; background: #fff; position: absolute; top: 30px; left: 200px; border: 1px solid #ccc; border-top: none; box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.1); -ms-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.1); -o-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.1); display: none; z-index: 5; }
+
+.search { width: 1190px; height: 90px; margin: 0 auto; }
+.search .s { width: 550px; height: 35px; margin: 30px auto 0 100px; border: 1px solid red; float: left; }
+.search .s .inp { width: 500px; height: 35px; border: none; outline: none; color: #999999; font-size: 14px; float: left; text-indent: 0.5em; }
+.search .s .btn { width: 50px; height: 35px; background: red; outline: none; border: none; font-family: 'iconfont'; float: left; text-align: center; line-height: 35px; font-size: 20px; color: #fff; cursor: pointer; }
+.search .cart { width: 190px; height: 35px; margin: 30px auto 0 30px; float: left; text-align: center; line-height: 35px; color: #f10214; font-size: 12px; font-family: 'iconfont'; background: #fff; border: 1px #ccc solid; }
+.search .cart span { font-size: 16px; }
+.search .hotwords { width: 550px; height: 20px; margin: 5px 0 0 100px; float: left; font-size: 12px; }
+.search .hotwords .red { color: #f10215; }
+.search .hotwords a { color: #999; }
+.search .hotwords a:hover { color: #c81623; }
+
+.navi { width: 1190px; height: 50px; margin: 0 auto; }
+.navi .nav-ul { width: 790px; height: 40px; margin: 10px auto 0 auto; line-height: 40px; font-size: 16px; font-weight: 700; text-indent: 1.5em; }
+.navi .nav-ul a { color: #555; margin-left: 10px; margin-right: 10px; }
+.navi .nav-ul span { font-size: 10px; font-weight: 100; }
+
+.mainmenu { width: 1190px; height: 480px; margin: -10px auto 10px auto; position: relative; }
+.mainmenu .main-left { width: 190px; height: 480px; float: left; background: #6e6568; }
+.mainmenu .main-left .menu { list-style: none; margin-top: 15px; }
+.mainmenu .main-left .menu a { color: #fff; font-size: 14px; }
+.mainmenu .main-left .menu a:hover { color: darkred; }
+.mainmenu .main-left .menu li { color: #fff; font-size: 12px; widows: 190px; height: 30px; line-height: 30px; text-indent: 1em; }
+.mainmenu .main-left .menu li:hover { background: #999; }
+.mainmenu .main-left .menu .submenu { width: 998px; height: 503.2px; background: #fff; position: absolute; top: 0; left: 190px; z-index: 6; display: none; }
+.mainmenu .main-ppt { width: 790px; height: 340px; margin: 0 10px 10px 10px; float: left; background: #999; }
+.mainmenu .main-ppt:hover .swiper-button-prev, .mainmenu .main-ppt:hover .swiper-button-next { display: block; }
+.mainmenu .main-ppt .swiper-container { width: 100%; height: 100%; }
+.mainmenu .main-ppt .swiper-slide { text-align: center; font-size: 18px; background: #fff; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+.mainmenu .main-toy, .mainmenu .main-snacks { width: 390px; height: 130px; float: left; margin-left: 10px; background: url(../img/baby&mom.jpg) no-repeat; background-size: cover; }
+.mainmenu .main-snacks { background: url(../img/snacks.jpg) no-repeat; background-size: cover; }
+.mainmenu .main-right { width: 190px; height: 480px; float: right; }
+.mainmenu .main-right .login { width: 190px; height: 115.8px; background: #fff; overflow: hidden; }
+.mainmenu .main-right .login .login_logo { width: 50px; height: 50px; margin: 15px 5px 5px 15px; background: url(../img/no_login.jpg) no-repeat; background-size: cover; float: left; }
+.mainmenu .main-right .login .user { width: 102px; height: 50px; margin-top: 15px; margin-bottom: 5px; line-height: 25px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; color: #666; float: left; }
+.mainmenu .main-right .login .user a { color: #666; }
+.mainmenu .main-right .login .member { width: 70px; height: 20px; border: 2px solid #e01222; line-height: 20px; color: #e01222; float: left; font-size: 12px; text-align: center; margin-left: 15px; margin-top: 5px; }
+.mainmenu .main-right .login .member:hover { color: #fff; background: #e01222; }
+.mainmenu .main-right .tips { width: 190px; height: 152px; background: #fff; border-top: 1px solid #999; border-bottom: 1px solid #999; position: relative; }
+.mainmenu .main-right .tips .tips_title { width: 160px; height: 25px; border-bottom: 1px solid #ccc; margin-left: 15px; line-height: 25px; text-align: right; font-size: 12px; color: #666; }
+.mainmenu .main-right .tips .tips_title .tit1, .mainmenu .main-right .tips .tips_title .tit2 { width: 30px; height: 25px; line-height: 25px; font-size: 12px; color: #666; float: left; text-align: center; }
+.mainmenu .main-right .tips .tips_title .tit1.h, .mainmenu .main-right .tips .tips_title .tit2.h { border-bottom: 2px solid #e01222; }
+.mainmenu .main-right .tips .tips_con, .mainmenu .main-right .tips .tips_con_h { width: 160px; height: 120px; position: absolute; left: 15px; top: 35px; }
+.mainmenu .main-right .tips .tips_con p, .mainmenu .main-right .tips .tips_con_h p { width: 160px; height: 24px; font-size: 11px; line-height: 24px; color: #666; text-indent: 1em; }
+.mainmenu .main-right .tips .tips_con_h { display: none; }
+
+.seckill-title { width: 1190px; height: 55px; background: url(../img/seckill_hd.png) no-repeat; background-size: cover; margin: 0 auto; }
+.seckill-title .left-top { width: 28px; height: 28px; background: url(../img/sprite_index@1x.png) no-repeat; background-size: 700%; background-position: -174px -45px; }
+
+.sk-sales { width: 1190px; height: 250px; margin: 0 auto; background: #fff; }
+.sk-sales .sellers-ppt { width: 1000px; height: 225px; margin-top: 12px; overflow: hidden; position: relative; float: left; }
+.sk-sales .sellers-ppt .prev, .sk-sales .sellers-ppt .next { width: 20px; height: 50px; position: absolute; top: 80px; line-height: 50px; background: rgba(0, 0, 0, 0.1); cursor: pointer; }
+.sk-sales .sellers-ppt .prev { left: 0; }
+.sk-sales .sellers-ppt .next { right: 0; }
+.sk-sales .sellers { width: 4000px; height: 225px; position: absolute; left: 0; height: 0; }
+.sk-sales .sellers .seller { width: 168px; height: 225px; margin: 0 15px 0 15px; float: left; }
+.sk-sales .sellers .line { width: 1px; height: 225px; border-right: 1px solid #ccc; float: left; }
+.sk-sales .sellers .img { width: 130px; height: 130px; margin: 20px; }
+.sk-sales .sellers .des { width: 170px; height: 32px; font-size: 12px; line-height: 16px; color: #999; overflow: hidden; }
+.sk-sales .sellers .des:hover { color: darkred; }
+.sk-sales .sellers .price { color: #999; font-size: 12px; }
+.sk-sales .sellers .price.red { color: red; font-weight: 700; }
+.sk-sales .sellers .font16 { font-size: 16px; }
+.sk-sales .sk-brand { width: 180px; height: 225px; margin-top: 12px; margin-left: 4px; float: left; }
+
+/*# sourceMappingURL=jdstyle.css.map */
